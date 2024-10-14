@@ -36,6 +36,7 @@
     transform: rotate(360deg);
   }
 } */
+
  *{
   margin: 0;
   padding: 0;
@@ -48,26 +49,55 @@ img{
   z-index: -1;
   position: absolute;
 }
+.sitename img{
+  width: 100px;
+  height: 58px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.logo{
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  left: 10px;
+  /* display: inline; */
+}
+.logo p{
+  position: absolute;
+  top: 9px;
+  left: 8px;
+}
 .navbar{
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: rgb(158, 63, 247);
-  opacity: 0.7;
-  margin-bottom: 20px;
+  /* opacity: 0.7; */
+  margin-bottom: 10px;
 }
 .items{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
 }
 .item{
    padding: 20px; 
    font-weight: 700;
+   /* margin-top: 20px; */
 } 
+.item0{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 .item a{
   text-decoration: none;
   padding: 20px;
+  color: white;
 }
 .navbar .item:hover{
   background-color: white;
@@ -84,11 +114,12 @@ img{
 .bigcont .container1{
   width: 180px;
   margin-left: 30px;
+  height: 70vh;
 }
 .bigcont .container1, .bigcont .container3{
   /* width: 240px; */
   background-color: gray;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 .bigcont .container1:hover, .bigcont .container3:hover{
   opacity: 1;
@@ -111,10 +142,45 @@ img{
   margin-right: 50px;
 }
 .bigcont .container3 .box{
-  height: 30vh;
+  /* padding-top: 30px; */
+  height: 25vh;
+  border: 2px solid black;
+  width: 180px;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: black;
+  margin-right: 20px;
+}
+.bigcont .container3 .item1{
+  margin-top: 60px;
 }
 .bigcont .container3 p{
   font-size: 24px;
   margin-bottom: 10px;
-  padding-top: 20px;
+  /* padding-top: 20px; */
+}
+
+.doubtbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 20px; */
+  background-color: black;
+  height: 85px;
+}
+.doubtbox input{
+  width: 70vw;
+  height: 40px;
+  color: black;
+}
+.doubtbox button{
+  width: 50px;
+  height: 40px;
+  background-color: rgba(129, 195, 252, 0.832);
+}
+.doubtbox select{
+  background-color: rgb(114, 199, 242);
+  border: 2px solid black;
+  width: 100px;
+  height: 40px;
 }

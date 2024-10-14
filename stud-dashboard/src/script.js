@@ -52,7 +52,7 @@ function createCard(CourseName, attendance, coursecomp, assignstatus, assigncomp
     display: flex;
     align-items: center;
     justify-content: center;
-    /* position: relative; */
+    position: relative; 
 }
 .box5 p{
     font-size: 20px;
@@ -73,7 +73,7 @@ function createCard(CourseName, attendance, coursecomp, assignstatus, assigncomp
     width: 160px;
     height: 160px;
     /* background-color: cornflowerblue; */
-    position: relative;
+    position: absolute;
 }
 
 .outer{
@@ -84,6 +84,8 @@ function createCard(CourseName, attendance, coursecomp, assignstatus, assigncomp
     padding: 20px;
     box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
                 -6px -6px 10px -1px rgba(255,255,255,0.7);
+    position: absolute;
+    left: 4px;
 }
 .inner{
     height: 120px;
