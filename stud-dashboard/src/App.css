@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,86 @@
   to {
     transform: rotate(360deg);
   }
+} */
+ *{
+  margin: 0;
+  padding: 0;
+  color: white;
+  box-sizing: border-box;
+ }
+img{
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  position: absolute;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(158, 63, 247);
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+.items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item{
+   padding: 20px; 
+   font-weight: 700;
+} 
+.item a{
+  text-decoration: none;
+  padding: 20px;
+}
+.navbar .item:hover{
+  background-color: white;
+}
+.item a:hover{
+  color: black;
+}
+.bigcont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+.bigcont .container1{
+  width: 180px;
+  margin-left: 30px;
+}
+.bigcont .container1, .bigcont .container3{
+  /* width: 240px; */
+  background-color: gray;
+  opacity: 0.5;
+}
+.bigcont .container1:hover, .bigcont .container3:hover{
+  opacity: 1;
+}
+.bigcont .container2{
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  /* border: 2px solid black; */
+}
+.bigcont .container3{
+  width: 200px;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+.bigcont .container3 .box{
+  height: 30vh;
+}
+.bigcont .container3 p{
+  font-size: 24px;
+  margin-bottom: 10px;
+  padding-top: 20px;
 }
