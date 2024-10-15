@@ -1,11 +1,13 @@
-import React from 'react';
+import logo from './logo.svg';
+import React, { useState, useEffect } from 'react';
 import './App.css';
-import CourseCardContainer from './CourseCardContainer';
+// import './script.js';
 
 function App() {
+
   return (
     <div className="App">
-      <img src="https://img.freepik.com/premium-photo/office-desktop-with-items-te-wooden-table_218381-16216.jpg?ga=GA1.1.296799929.1720875365&semt=ais" alt="" />
+      <img src="https://img.freepik.com/premium-photo/office-desktop-with-items-te-wooden-table_218381-16216.jpg?ga=GA1.1.296799929.1720875365&semt=ais_hybrid" alt="" />
       <div className="navbar">
         <div className="sitename">
           <img src="https://www.vhv.rs/dpng/d/556-5561873_elearning-e-learning-logo-png-transparent-png.png" alt=""/>
@@ -19,9 +21,8 @@ function App() {
       </div>
       <div className="bigcont">
         <div className="container1">
-          <div className="item item0">
-            <div className="logo"><p>⚡</p></div>
-            <div>Hey XYZ</div>
+          <div className="item item0"><div className="logo"><p>⚡</p></div>
+          <div>Hey XYZ</div>
           </div>
           <div className="item item1">Course Name :<br/> B.Tech. Computer Science and Engineering</div>
           <div className="item item2">Name :<br/>XYZ</div>
@@ -29,7 +30,9 @@ function App() {
           <div className="item item4">Phone Number :<br/>9729322837</div>
           <div className="item item5">Roll Number :<br/>24/B04/078</div>
         </div>
-        <CourseCardContainer />
+        <div className="container2">
+          {/* <button></button> */}
+        </div>
         <div className="container3">
           <div className="item1 item">
             <p>Announcements</p>
@@ -66,3 +69,4 @@ function App() {
 }
 
 export default App;
+// export default myApp;

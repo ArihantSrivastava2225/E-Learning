@@ -51,7 +51,7 @@ img{
 }
 .sitename img{
   width: 100px;
-  height: 58px;
+  height: 61px;
   position: absolute;
   top: 0;
   z-index: 1;
@@ -113,7 +113,7 @@ img{
 }
 .bigcont .container1{
   width: 180px;
-  margin-left: 30px;
+  margin-left: 10px;
   height: 70vh;
 }
 .bigcont .container1, .bigcont .container3{
@@ -125,11 +125,13 @@ img{
   opacity: 1;
 }
 .bigcont .container2{
-  width: 1200px;
+  /* width: 1200px; */
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0;
   margin-left: 10px;
+  margin-right: 10px;
   /* border: 2px solid black; */
 }
 .bigcont .container3{
@@ -139,7 +141,8 @@ img{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-right: 50px;
+  padding-left: 10px;
+  /* margin-right: 10px; */
 }
 .bigcont .container3 .box{
   /* padding-top: 30px; */
